@@ -1,5 +1,6 @@
 /* font imports here */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Serif:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Roboto:ital,wght@1,300&display=swap");
 *,
 *::before,
 *::after {
@@ -34,7 +35,7 @@ body {
 /* This line sets the default font for most text, including the body text, navigation, and the smaller headers (h4-h6) */
 /* This line sets the font for larger headers (h1-h3), including the site title*/
 :root {
-  font-size: 110%;
+  font-size: 200%;
   font-family: "IBM Plex Sans", sans-serif;
 }
 
@@ -50,7 +51,7 @@ main {
 }
 
 html {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.603);
 }
 
 h1 {
@@ -107,7 +108,7 @@ p > img {
 }
 
 main hr {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.808);
   border-top: none;
 }
 main h1,
@@ -116,10 +117,10 @@ main h3,
 main h4,
 main h5,
 main h6 {
-  color: black;
+  color: 189, 162, 13, 0.808;
 }
 main * {
-  color: black;
+  color: rgba(189, 162, 13, 0.808);
 }
 main a {
   color: blue;
@@ -144,12 +145,12 @@ body {
 .main-nav-container {
   width: clamp(250px, 30%, 500px);
   position: fixed;
-  background-color: #c0c0c0;
+  background-color: rgba(189, 162, 13, 0.808);
   height: 100%;
   padding: 1rem;
   z-index: 10;
   transition: all 0.5s;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .site-masthead {
@@ -158,7 +159,7 @@ body {
   padding-bottom: 1rem;
 }
 .site-masthead a {
-  color: black;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 .site-masthead h3 {
@@ -171,7 +172,7 @@ body {
 }
 
 .sidebar-rule {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid rgb(255, 255, 255);
 }
 
 .btn-toggle-menu {
@@ -179,7 +180,7 @@ body {
 }
 
 .active {
-  background-color: white;
+  background-color: rgba(189, 162, 13, 0.808);
   transition: background-color 0.2s;
 }
 
@@ -201,7 +202,7 @@ body {
   padding-inline-start: 0;
 }
 .sidebar-nav-link-section * {
-  color: black;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 .sidebar-nav-link-section a {
@@ -210,7 +211,7 @@ body {
   transition: background-color 0.2s;
 }
 .sidebar-nav-link-section a:hover {
-  background-color: white;
+  background-color: rgba(189, 162, 13, 0.808);
 }
 
 main {
@@ -267,19 +268,19 @@ pre {
   position: relative;
   padding: 1rem;
   text-decoration: none;
-  color: black;
+  color: rgba(189, 162, 13, 0.808);
   display: block;
 }
 .portfolio-card-tile * {
   display: block;
-  color: black;
+  color: rgba(189, 162, 13, 0.808);
   text-decoration: none;
 }
 .portfolio-card-tile h2 {
   font-size: 1.25rem;
 }
 .portfolio-card-tile:hover, .portfolio-card-tile:focus, .portfolio-card-tile:active {
-  background-color: lightgreen;
+  background-color: lightgreen(189, 162, 13, 0.808);
 }
 
 p.portfolio-card-desc-short {
@@ -349,7 +350,7 @@ p.portfolio-card-desc-short {
   margin-bottom: 0;
 }
 .portfolio-tile-text-overlay * {
-  color: black;
+  color: rgb(226, 37, 37);
 }
 
 .portfolio-tile:focus .portfolio-tile-text-overlay,
@@ -362,7 +363,7 @@ p.portfolio-card-desc-short {
 
 /* wide (UX) portfolio layout */
 .portfolio-wide-tile a {
-  color: black;
+  color: rgba(189, 162, 13, 0.808);
   text-decoration: none;
 }
 
@@ -412,7 +413,7 @@ p.portfolio-card-desc-short {
 }
 .portfolio-wide-cta-link.portfolio-wide-cta-link:hover {
   background-color: rgb(255, 123, 0);
-  color: white;
+  color: rgba(255, 255, 255, 0.603);
   transition: all 0.2s;
 }
 
@@ -479,7 +480,7 @@ html {
   }
   .main-nav {
     transform: none;
-    background-color: #c0c0c0;
+    background-color: rgba(189, 162, 13, 0.808);
     opacity: 1;
     width: 100vw;
     transition: all 0.3s;
@@ -525,10 +526,10 @@ html {
   .btn-toggle-menu svg {
     height: 100%;
     width: 100%;
-    fill: black;
+    fill: rgb(255, 255, 255);
   }
   .btn-toggle-menu:hover {
-    background-color: white;
+    background-color: rgba(189, 162, 13, 0.808);
   }
   .site-masthead {
     z-index: 10;
@@ -536,11 +537,11 @@ html {
     height: 3rem;
     display: flex;
     padding: 0 0.5rem;
-    border-bottom: 0px solid black;
+    border-bottom: 0px solid rgba(236, 25, 25, 0.719);
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #c0c0c0;
+    background-color: rgba(189, 162, 13, 0.808);
   }
   .site-masthead h3 {
     margin: 0;
@@ -556,7 +557,7 @@ html {
   }
 }
 .page-title {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.808);
   padding-bottom: 1rem;
 }
 
@@ -573,7 +574,7 @@ pre {
 
 .component-inline-nav {
   max-width: 50rem;
-  border-top: 2px solid black;
+  border-top: 2px solid rgba(255, 255, 255, 0.808);
   padding-top: 1rem;
   margin-top: 2rem;
 }
@@ -590,7 +591,7 @@ pre {
 }
 .component-inline-nav .sibling-navigation a,
 .component-inline-nav .sibling-navigation a:visited {
-  color: black;
+  color: rgba(189, 162, 13, 0.808);
   text-decoration: none;
 }
 .component-inline-nav .sibling-navigation a:hover,

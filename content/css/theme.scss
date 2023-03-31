@@ -8,7 +8,7 @@
 //copy and paste these from Google Fonts, Adobe Fonts, etc.
 // you only need to copy the '@import' line; if the code has <style> tags, delete them.
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Serif:wght@600&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Roboto:ital,wght@1,300&display=swap');
 /* This line sets the default font for most text, including the body text, navigation, and the smaller headers (h4-h6) */
 // You can copy this from Google Fonts as well - this will be the 'font-family' value;
 $theme-font-stack-main: "IBM Plex Sans", sans-serif;
@@ -19,7 +19,7 @@ $theme-font-stack-headers: "IBM Plex Serif", serif;
 
 // This line sets the base font size for desktop
 // default is 110%
-$font-size-base: 110%;
+$font-size-base: 200%;
 
 // This line sets the base font size for mobile
 // default is 100%
@@ -91,19 +91,19 @@ $nav-project-indent: 1em;
 
 // This line sets the background color for the sidebar area, and for the top bar on mobile
 // default is a light gray (#c0c0c0)
-$color-sidebar-background: #c0c0c0;
+$color-sidebar-background: rgba(189, 162, 13, 0.808);
 
 // This line sets the text color for the sidebar area, and for the top bar on mobile
 // default is black
-$color-sidebar-text: black;
+$color-sidebar-text: rgb(255, 255, 255);
 
 //This line sets the color of the sidebar highlight (shown on the current page);
 // default is white
-$color-sidebar-highlight: white;
+$color-sidebar-highlight: rgb(189, 162, 13, 0.808);
 
 //this sets the color of the rule on the sidebar (shown between the masthead and the pages)
 //default is black;
-$color-sidebar-rule: black;
+$color-sidebar-rule: rgb(255, 255, 255);
 
 // this sets the weight of the rule on the sidebar;
 // default is 2px
@@ -111,7 +111,7 @@ $weight-sidebar-rule: 2px;
 
 // This sets the color of the bottom border on the top nav bar on mobile
 // default is black
-$color-top-nav-border: black;
+$color-top-nav-border: rgba(236, 25, 25, 0.719);
 
 // This sets the thickness of the bottom border on the top nav bar on mobile
 // default is 0px
@@ -131,20 +131,20 @@ $main-col-width: 50rem;
 
 // This line sets the background color for the entire page
 // default is white
-$color-page-background: white;
+$color-page-background: rgba(255, 255, 255, 0.603);
 
 // This line sets the main text color for the page
 // default is black
-$color-text-primary: black;
+$color-text-primary: rgb(189, 162, 13, 0.808);
 
 //This line sets the text color for header elements
 // default is black
-$color-text-headers: black;
+$color-text-headers: (189, 162, 13, 0.808);
 
 // This line sets the color of borders and rules on the page
 // Set this to transparent to get rid of them entirely
 // default is black
-$color-borders: black;
+$color-borders: rgba(255, 255, 255, 0.808);
 
 //This line sets the width of borders on the main page area
 $border-width: 2px;
@@ -166,7 +166,7 @@ $color-tile-overlay: white;
 
 //this line sets the text color for the overlays on the tile layout
 //default is black
-$color-tile-overlay-text: black;
+$color-tile-overlay-text: rgb(226, 37, 37);
 
 // This line sets the gap between tiles
 // default is 0px
@@ -181,7 +181,7 @@ $portfolio-tile-max-columns: 3;
 
 // This line sets the hover color for the 'card' portfolio layout
 // default is lightgreen
-$color-portfolio-card-highlight: lightgreen;
+$color-portfolio-card-highlight: lightgreen(189, 162, 13, 0.808);
 
 //This is the minimum width of a card in the 'card' portfolio layout.
 // default is 400px
